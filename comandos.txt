@@ -1,0 +1,9 @@
+COMANDOS DE DOCKER:
+	para ver los contenedores
+		docker ps -a
+	para construir la imagen (hay que estar en la carpeta del repo)	
+		docker built back/front -t nombreImagen
+	para ver las imagenes 
+		docker images
+	para correr el contenedor
+		docker run --name back/front -d -p puerto:puerto nombreImagen
